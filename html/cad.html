@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cad.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-container">
+            <div class="content-boxContainer">
+                <div class="box">
+                    <h1>Faça seu cadastro!</h1>
+                </div>
+                <form>
+                    <div id="msg-sucesso"></div>
+                    <div id="msg-error"></div>
+                    <div class="box">
+                        <div id="msg-nome"></div>
+                        <input type="text" name="nome" id="nome"  placeholder="Nome">
+                    </div>
+
+                    <div class="box">
+                        <div id="msg-email"></div>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="box">
+                        <div id="msg-senha"></div>
+                        <input type="password" name="senha" id="senha" placeholder="Senha">
+                    </div>
+
+                    <div class="box">
+                        <div id="msg-confirmS"></div>
+                        <input type="password" name="confirmSenha" id="confirmSenha" placeholder="Confirme sua senha">
+                        <div id="text">
+                            <p>
+                                já tem uma conta? <a href="login.html">entrar</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box" id="button">
+                        <button id="cad">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/cad.js"></script>
+</body>
+
+</html>

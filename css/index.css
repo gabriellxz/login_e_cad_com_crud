@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Oswald:wght@300&family=Poppins:wght@600&family=Roboto+Condensed&family=Ubuntu:wght@500&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/saudavel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 40%; 
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Fjalla One', sans-serif;
+    color: purple;
+}
+
+.button {
+    margin: 20px;
+}
+
+button {
+    width: 350px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 1em;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translate(5px) ;
+    transition: 0.5s;
+}
+
+a {
+    color: white;
+}
+
+.content-box {
+    margin: 40px;
+    text-align: center;
+}
+
+#styleAfter::after {
+    content: '________________';
+}

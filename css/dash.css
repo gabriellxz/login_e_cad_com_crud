@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Oswald:wght@300&family=Poppins:wght@600&family=Roboto+Condensed&family=Ubuntu:wght@500&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#box-buttonExit {
+    display: flex;
+    justify-content: right;
+    height: 10vh;
+}
+
+#box-buttonExit #button-exit {
+    margin: 20px;
+}
+
+#button-exit button {
+    width: 100px;
+    height: 40px;
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/dash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.box-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+.box {
+    margin: 20px;
+}
+
+form {
+    background-color: rgba(59, 10, 59, 0.468);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#list {
+    background-color: rgba(59, 10, 59, 0.468);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: purple;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translate(5px);
+    transition: 0.5s;
+}
+
+table {
+    background-color: rgba(59, 10, 59, 0.468);
+    border-radius: 10px;
+}
+
+table th {
+    padding: 20px;
+    border: 1px solid white;
+}
+
+table td {
+    padding: 20px;
+    text-align: center;
+}
+
+#msg-sucesso {
+    text-align: center;
+    color:green;
+    background-color: rgba(0, 128, 0, 0.267);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#msg-error {
+    text-align: center;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.223);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#msg {
+    text-align: center;
+    color:green;
+    background-color: rgba(0, 128, 0, 0.267);
+    border-radius: 5px;
+    font-size: 15px;
+}
